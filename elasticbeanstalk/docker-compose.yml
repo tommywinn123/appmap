@@ -1,9 +1,10 @@
 
-
 version: "4.1.1"
 services:
   backend:
     image: "tommywinn123/spring-react-fullstack:latest"
     ports:
-       - "8080:8080"
+      - "80:8080"
     restart: "always"
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
