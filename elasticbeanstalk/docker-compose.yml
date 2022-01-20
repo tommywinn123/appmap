@@ -1,0 +1,9 @@
+
+
+version: "4.1.1"
+services:
+  backend:
+    image: "tommywinn123/spring-react-full:latest"
+    ports:
+       - "8080:8080"
+    restart: "always"

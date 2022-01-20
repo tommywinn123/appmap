@@ -106,11 +106,11 @@
                                 <phase>package</phase>
                                 <configuration>
                                     <to>
-                                        <image>docker.io/tommywinn123/${app.image.name}:${app.image.tag}</image>
+                                        <image>tommywinn123/${app.image.name}:${app.image.tag}</image>
                                     </to>
                                 </configuration>
                                 <goals>
-                                    <goal>build</goal>
+                                    <goal>dockerBuild</goal>
                                 </goals>
                             </execution>
                             <execution>
@@ -118,11 +118,11 @@
                                 <phase>package</phase>
                                 <configuration>
                                     <to>
-                                        <image>docker.io/tommywinn123/${app.image.name}:latest</image>
+                                        <image>tommywinn123/${app.image.name}:latest</image>
                                     </to>
                                 </configuration>
                                 <goals>
-                                    <goal>build</goal>
+                                    <goal>dockerBuild</goal>
                                 </goals>
                             </execution>
                         </executions>
