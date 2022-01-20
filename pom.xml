@@ -15,7 +15,7 @@
     <description>App project for Spring Boot</description>
     <properties>
         <java.version>15</java.version>
-        <app.image.name>springboot-react-fullstack</app.image.name>
+        <app.image.name>spring-react-fullstack</app.image.name>
         <app.image.tag/>
     </properties>
     <dependencies>
@@ -106,7 +106,7 @@
                                 <phase>package</phase>
                                 <configuration>
                                     <to>
-                                        <image>tommywinn123/${app.image.name}:${app.image.tag}</image>
+                                        <image>docker.io/tommywinn123/${app.image.name}:${app.image.tag}</image>
                                     </to>
                                 </configuration>
                                 <goals>
@@ -118,7 +118,7 @@
                                 <phase>package</phase>
                                 <configuration>
                                     <to>
-                                        <image>tommywinn123/${app.image.name}:latest</image>
+                                        <image>docker.io/tommywinn123/${app.image.name}:latest</image>
                                     </to>
                                 </configuration>
                                 <goals>
